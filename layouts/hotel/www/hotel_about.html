@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:wght@200&display=swap">-->
+  </head>
+  <body>
+    <div class="page-header-wrap">
+      <header id="page-header">
+        <a class="nav-link" href="index.html" target="_blank">
+          <div class="logo">
+            <h1 class="logo-text">Paradise hotel</h1>
+            <div class="stars">
+              <div class="line"></div>
+              <img src="logo/stars.svg" alt="five stars">
+              <div class="line"></div>
+            </div>
+          </div>
+        </a>
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a class="nav-link current" href="hotel_about.html" target="_blank">
+              Hotel
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hotel_rooms_suites.html" target="_blank">
+              Rooms & Suites
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hotel_reservation.html" target="_blank">
+              Reservation
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hotel_activitieshtml" target="_blank">
+              Activities
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hotel_contact.html" target="_blank">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <select id="select-lang">
+          <option>EN</option>
+          <option>RU</option>
+        </select>
+      </header>
+    </div>
+    <div id="page-body">
+      <div id="page-head">
+        <div id="page-title">
+          <div id="sub-title">
+            <h2>About Paradise hotel</h2>
+          </div>
+        </div>
+      </div>
+      <div id="page-wrap">
+        <div id="sub-menu">
+          <ul id="sub-menu-items" class="nav-items">
+            <li class="menu-item">
+              <a class="menu-link selected" href="hotel_overview.html" target="_blank">
+                Overview
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="hotel_location.html" target="_blank">
+                Hotel Location
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="hotel_image_gallery.html" target="_blank">
+                Image Gallery
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="hotel_services.html" target="_blank">
+                Hotel Services
+              </a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="hotel_local_information.html" target="_blank">
+                Local Information
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="page-main">
+          <div id="page-content">
+            <div class="content">
+              <h2>Our hotel <span>paradise</span></h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo. Phasellus adipiscing pretium sem, id congue erat fermentum at. Fusce dapibus felis non ante gravida convallis. Nullam vulputate convallis lectus in ultrices.
+              </p>
+              <p>Etiam sollicitudin mattis pulvinar. Duis congue dignissim turpis, ut consectetur mauris congue a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam hendrerit, arcu a vehicula bibendum, dolor orci consectetur nisl, a imperdiet ante magna eget neque. Sed ac dolor ante. Etiam in ipsum neque, et ultricies nibh. Sed vel ultrices nulla. Maecenas nulla ipsum, bibendum sit amet tristique non, rhoncus a neque. </p>
+            </div>
+            <div class="content">
+              <h2>Class aptent taciti sociosqu</h2>
+              <div class="image-and-text">
+                <div class="image"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo. Phasellus adipiscing pretium sem, id congue erat fermentum at. Fusce dapibus felis non ante gravida convallis. Nullam vulputate convallis lectus in ultrices.
+                </p>
+              </div>
+              <div class="image-and-text">
+                <div class="image"></div>
+                <p>Ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros nec commodo. Phasellus adipiscing pretium sem, id congue erat fermentum at.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div id="page-sidebar">
+            <div id="search">
+              <span class="section-name">Search</span>
+              <form>
+                <fieldset id="search-fields">
+                  <input type="text" placeholder="Search...">
+                  <label type="submit" name="image" value="submit">
+                    <input class="search-btn" type="submit" placeholder="loop">
+                    <img src="logo/search.svg">
+                  </label>
+                </fieldset>
+              </form>
+            </div>
+            <div id="reservation">
+              <span class="section-name">
+                Reservations
+              </span>
+              <p>Request a reservation. We will come back to you shortly</p>
+              <form>
+                <select>
+                  <option>
+                    Select a room...
+                  </option>
+                </select>
+                <div id="dates-input">
+                  <input type="date" placeholder="From">
+                  <input type="date" placeholder="To">
+                </div>
+                <input type="submit" value="Book now">
+              </form>
+            </div>
+            <div id="contact">
+              <span class="section-name">Contact us</span>
+              <ul id="contacts">
+                <li class="contact">
+                  02/555 333 22 <img src="logo/phone.svg">
+                </li>
+                <li class="contact">
+                  Live Chat <img src="logo/chat.svg">
+                </li>
+                <li class="contact">
+                  info@pixel-faabric.com <img src="logo/mail.svg">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-wrap">
+        <p id="copyright">© 2012 Paradise Hotel. All Rights Reserved.</p>
+        <div id="socials">
+          <ul class="socials">
+            <li class="social-link">
+              <a class="social" href="">
+                <img src="logo/twitter.svg">
+              </a>
+            </li>
+            <li class="social-link">
+              <a class="social" href="">
+                <img src="logo/facebook.svg">
+              </a>
+            </li>
+            <li class="social-link">
+              <a class="social" href="">
+                <img src="logo/youtube.svg">
+              </a>
+            </li>
+            <li class="social-link">
+              <a class="social" href="">
+                <img src="logo/idk.svg">
+              </a>
+            </li>
+            <li class="social-link">
+              <a class="social" href="">
+                <img src="logo/pinterest.svg">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="links">
+          <ul class="links">
+            <li class="link">
+              <a class="site-link" href="hotel_about.html" target="_blank">
+                Hotel
+              </a>
+            </li>
+            <li class="link">
+              <a class="site-link" href="hotel_rooms_suites.html" target="_blank">
+                Rooms & Suites
+              </a>
+            </li>
+            <li class="link">
+              <a class="site-link" href="hotel_reservation.html" target="_blank">
+                Reservation
+              </a>
+            </li>
+            <li class="link">
+              <a class="site-link" href="hotel_contact.html" target="_blank">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

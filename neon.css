@@ -1,8 +1,26 @@
-body, html {
+.neon-background {
+  width: 100%;
   margin: 0;
   overflow: hidden;
   perspective: 1500px;
-  z-index: 10;
+  z-index: 1;
+  position: fixed;
+}
+
+.site {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*background: white;*/
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 80px 0;
+}
+
+.site main, .wrapper, .page-wrapper {
+  height: 100%;
 }
 
 .stars {
@@ -38,10 +56,11 @@ body, html {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 25px;
   animation: moveCloud 30s infinite linear;
+  z-index: 5;
 }
 
 .cloud2 {
-  bottom: 50%;
+  bottom: 70%;
   animation-duration: 40s;
   left: 50%;
 }
@@ -205,3 +224,170 @@ body, html {
 .line:nth-child(38) { animation-delay: 18.5s; }
 .line:nth-child(39) { animation-delay: 19.5s; }
 .line:nth-child(40) { animation-delay: 20s; }
+
+.city {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+  top: -601px;
+  left: 5px;
+  position: absolute;
+  width: 100%;
+  height: 600px;
+}
+
+.foreground {
+  position: absolute;
+  top: -601px;
+  left: 5px;
+}
+
+.background {
+  position: absolute;
+  top: -601px;
+  left: 5px;
+
+}
+
+.building1 {
+  width: 4%;
+  height: 75%;
+  background: black;
+}
+
+.building2 {
+  width: 3%;
+  height: 60%;
+  background: black;
+}
+
+.building3 {
+  width: 2%;
+  height: 50%;
+  background: black;
+}
+
+.building4 {
+  width: 5%;
+  height: 80%;
+  background: black;
+}
+
+.building5 {
+  width: 15%;
+  height: 30%;
+  background: black;
+}
+
+.building6 {
+  width: 7%;
+  height: 65%;
+  background: black;
+}
+
+.building7 {
+  width: 5%;
+  height: 80%;
+  background: black;
+}
+
+.middle {
+  border: red 4px solid;
+  border-bottom: none;
+  -webkit-box-shadow: 0px -6px 13px 7px rgba(255, 0, 0, 0.2);
+  -moz-box-shadow: 0px -6px 13px 7px rgba(255, 0, 0, 0.2);
+  box-shadow: 0px -10px 13px 7px rgba(255, 0, 0, 0.2);
+}
+
+.bg {
+  border: yellow 4px solid;
+  border-bottom: none;
+  -webkit-box-shadow: 0px -6px 13px 7px yellow;
+  -moz-box-shadow: 0px -6px 13px 7px yellow;
+  box-shadow: 0px -10px 13px 7px yellow;
+}
+
+.fg {
+  border: purple 4px solid;
+  border-bottom: none;
+  -webkit-box-shadow: 0px -6px 13px 7px purple;
+  -moz-box-shadow: 0px -6px 13px 7px purple;
+  box-shadow: 0px -10px 13px 7px purple;
+}
+
+.bg-building1 {
+  width: 7%;
+  height: 70%;
+  background: black;
+}
+
+.bg-building2 {
+  width: 5%;
+  height: 65%;
+  background: black;
+}
+
+.bg-building3 {
+  width: 15%;
+  height: 85%;
+  background: black;
+}
+
+.bg-building4 {
+  width: 5%;
+  height: 40%;
+  background: black;
+}
+
+.bg-building5 {
+  width: 7%;
+  height: 70%;
+  background: black;
+}
+
+.bg-building6 {
+  width: 7%;
+  height: 90%;
+  background: black;
+}
+
+.bg-building7 {
+  width: 3%;
+  height: 60%;
+  background: black;
+}
+
+.bg-building8 {
+  width: 4%;
+  height: 30%;
+  background: black;
+}
+.bg-building9 {
+  width: 7%;
+  height: 85%;
+  background: black;
+}
+
+.fg-building1 {
+  width: 7%;
+  height: 35%;
+  background: black;
+}
+
+.fg-building2 {
+  width: 3%;
+  height: 25%;
+  background: black;
+}
+
+.fg-building3 {
+  width: 10%;
+  height: 30%;
+  background: black;
+}
+
+.fg-building4 {
+  width: 13%;
+  height: 20%;
+  background: black;
+}
